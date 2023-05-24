@@ -7,7 +7,7 @@ public class MovieLibrary {
     private List<Movie> movies;
 
     public MovieLibrary () {
-        List<List<String>> directorsData = Utils.readFile("directors.csv");
+        List<List<String>> directorsData = Utils.readFile("directors");
         //move on
     }
 
